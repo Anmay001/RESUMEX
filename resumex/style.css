@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f7f7;
+    color: #0e0d0d;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #070707;
+  }
+  
+  nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  nav .nav-links a {
+    color: #0d0d0d;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  nav .nav-actions .btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    color: #0e0e0e;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .nav-actions .btn.primary {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #0f0f0f;
+    margin-bottom: 2rem;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+  
+  .feature {
+    background: #f5f3f3;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .faq {
+    padding: 2rem;
+  }
+  
+  .accordion-item {
+    margin-bottom: 1rem;
+  }
+  
+  .accordion-header {
+    background: #5e5d5d;
+    color: #0f0e0e;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 1rem;
+    background: #5e5d5d;
+    color: #131313;
+  }
+  
+  .experts {
+    padding: 2rem;
+  }
+  
+  .expert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .contact {
+    padding: 2rem;
+  }
+  
+  .contact form {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .contact input, .contact textarea {
+    width: 100%;
+    padding: 0.75rem;
+    background: #111;
+    border: 1px solid #333;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    padding: 1rem;
+    background: #171717;
+    color: #faf8f8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
